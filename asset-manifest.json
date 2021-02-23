@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/doge-tracker/static/css/main.ce2f96d1.chunk.css",
-    "main.js": "/doge-tracker/static/js/main.df47e60c.chunk.js",
-    "main.js.map": "/doge-tracker/static/js/main.df47e60c.chunk.js.map",
+    "main.css": "/doge-tracker/static/css/main.f6a18f7c.chunk.css",
+    "main.js": "/doge-tracker/static/js/main.015edbd9.chunk.js",
+    "main.js.map": "/doge-tracker/static/js/main.015edbd9.chunk.js.map",
     "runtime-main.js": "/doge-tracker/static/js/runtime-main.93e62154.js",
     "runtime-main.js.map": "/doge-tracker/static/js/runtime-main.93e62154.js.map",
     "static/css/2.150d169a.chunk.css": "/doge-tracker/static/css/2.150d169a.chunk.css",
-    "static/js/2.34424085.chunk.js": "/doge-tracker/static/js/2.34424085.chunk.js",
-    "static/js/2.34424085.chunk.js.map": "/doge-tracker/static/js/2.34424085.chunk.js.map",
+    "static/js/2.48563e87.chunk.js": "/doge-tracker/static/js/2.48563e87.chunk.js",
+    "static/js/2.48563e87.chunk.js.map": "/doge-tracker/static/js/2.48563e87.chunk.js.map",
     "index.html": "/doge-tracker/index.html",
     "static/css/2.150d169a.chunk.css.map": "/doge-tracker/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.ce2f96d1.chunk.css.map": "/doge-tracker/static/css/main.ce2f96d1.chunk.css.map",
-    "static/js/2.34424085.chunk.js.LICENSE.txt": "/doge-tracker/static/js/2.34424085.chunk.js.LICENSE.txt",
+    "static/css/main.f6a18f7c.chunk.css.map": "/doge-tracker/static/css/main.f6a18f7c.chunk.css.map",
+    "static/js/2.48563e87.chunk.js.LICENSE.txt": "/doge-tracker/static/js/2.48563e87.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/doge-tracker/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.93e62154.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.34424085.chunk.js",
-    "static/css/main.ce2f96d1.chunk.css",
-    "static/js/main.df47e60c.chunk.js"
+    "static/js/2.48563e87.chunk.js",
+    "static/css/main.f6a18f7c.chunk.css",
+    "static/js/main.015edbd9.chunk.js"
   ]
 }
