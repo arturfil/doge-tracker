@@ -32,8 +32,7 @@
     content: attr(data-col) ": ";
     margin-right: 10px;
     font-weight: bold;
-    width: 18em;
-    padding-left: 3em;
+    width: 12em;
     display: inline-block;
   }
 
