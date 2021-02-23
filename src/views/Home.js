@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import { Table } from 'reactstrap';
 import axios from 'axios';
 import NavBar from '../functional/NavBar';
+import "./Home.css"
 
 const Home = () => {
   const [price, setPrice] = useState(0);
@@ -45,7 +46,7 @@ const Home = () => {
       <div className="container mt-5" style={{textAlign: 'left'}}>
         <h2>DOGE COIN Tracker</h2>
         <h2>Price is ${price} </h2>
-        <Table className="mt-5" style={{color: 'white'}}>
+        <Table className="mt-5 resp-table" style={{color: 'white'}}>
           <thead>
             <tr>
               <th>Entity</th>
@@ -61,21 +62,21 @@ const Home = () => {
           <tbody>
             { clients.map((c, i) => (
               <>
-                <tr key={i}>
-                  <th>
+                <tr key={i} className="box">
+                  <td data-col="User">
                     <strong>
                     {c.name}
                     </strong>
-                  </th>
-                  <td>{c.asset}</td>
-                  <td>{c.price}</td>
-                  <td>{c.quantity}</td>
-                  <td>${(c.price * c.quantity).toFixed(2)}</td>
-                  <td>${ (price * c.quantity).toFixed(2) }</td>
-                  <td style={ (price * c.quantity) > (c.price * c.quantity) ? successStl : dangerStl}>
+                  </td>
+                  <td data-col="Asset">{c.asset}</td>
+                  <td data-col="Price p/u">{c.price}</td>
+                  <td data-col="Qty">{c.quantity}</td>
+                  <td data-col="Initial Invst.">${(c.price * c.quantity).toFixed(2)}</td>
+                  <td data-col="Current Cap.">${ (price * c.quantity).toFixed(2) }</td>
+                  <td data-col="Cap. Gain" style={ (price * c.quantity) > (c.price * c.quantity) ? successStl : dangerStl}>
                     ${ ((price * c.quantity).toFixed(2) - (c.price * c.quantity)).toFixed(2) }
                   </td>
-                  <td style={
+                  <td data-col="Gain / Loss" style={
                     (((price * c.quantity) - (c.price * c.quantity)) / (price * c.quantity)) > 0 
                     ? successStl : dangerStl}>
                       % {  ((((price * c.quantity) - (c.price * c.quantity)) / (price * c.quantity)) * 100).toFixed(2) }

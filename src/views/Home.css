@@ -1,0 +1,43 @@
+.resp-table td::before {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .table td {
+    border-top: 0px solid!important;
+  }
+
+  .box {
+    background-image: linear-gradient(to bottom right, rgb(37, 9, 82), rgb(54, 6, 175));
+    margin-bottom: 20px !important;
+  }
+      
+  .resp-table thead{
+    display: none;
+  }
+
+  .resp-table td, resp-table tr{
+    display: block!important;
+  }
+
+  .resp-table td:first-child {
+    padding-top: 20px;
+  }
+
+  .resp-table td:last-child {
+    padding-bottom: 20px;
+  }
+
+  .resp-table td::before {
+    content: attr(data-col) ": ";
+    margin-right: 10px;
+    font-weight: bold;
+    width: 18em;
+    padding-left: 3em;
+    display: inline-block;
+  }
+
+  .resp-table tr {
+    margin: 10px 0;
+  }
+}
