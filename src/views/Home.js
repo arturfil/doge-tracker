@@ -56,7 +56,8 @@ const Home = () => {
               <th>Initial Invst.</th>
               <th>Current Capital</th>
               <th>Capital Gain</th>
-              <th>Gain / Loss</th>
+              <th>Cap Gain %</th>
+              <th>Total Gain %</th>
             </tr>
           </thead>
           <tbody>
@@ -80,6 +81,11 @@ const Home = () => {
                     (((price * c.quantity) - (c.price * c.quantity)) / (price * c.quantity)) > 0 
                     ? successStl : dangerStl}>
                       % {  ((((price * c.quantity) - (c.price * c.quantity)) / (price * c.quantity)) * 100).toFixed(2) }
+                  </td>
+                  <td data-col="Gain / Loss" style={
+                    (((price * c.quantity) - (c.price * c.quantity)) / (price * c.quantity)) > 0 
+                    ? successStl : dangerStl}>
+                      % {  ((((price * c.quantity) - (c.price * c.quantity)) / (c.price * c.quantity)) * 100).toFixed(2) }
                   </td>
                 </tr>
               </>
