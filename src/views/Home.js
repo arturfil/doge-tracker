@@ -77,12 +77,12 @@ const Home = () => {
                   <td data-col="Cap. Gain" style={ (price * c.quantity) > (c.price * c.quantity) ? successStl : dangerStl}>
                     ${ ((price * c.quantity).toFixed(2) - (c.price * c.quantity)).toFixed(2) }
                   </td>
-                  <td data-col="Gain / Loss" style={
+                  <td data-col="Cap Gain %" style={
                     (((price * c.quantity) - (c.price * c.quantity)) / (price * c.quantity)) > 0 
                     ? successStl : dangerStl}>
                       % {  ((((price * c.quantity) - (c.price * c.quantity)) / (price * c.quantity)) * 100).toFixed(2) }
                   </td>
-                  <td data-col="Gain / Loss" style={
+                  <td data-col="Total Gain %" style={
                     (((price * c.quantity) - (c.price * c.quantity)) / (price * c.quantity)) > 0 
                     ? successStl : dangerStl}>
                       % {  ((((price * c.quantity) - (c.price * c.quantity)) / (c.price * c.quantity)) * 100).toFixed(2) }
