@@ -40,7 +40,7 @@ const Home = () => {
     {"id":21, name: "Pelos",	  asset: "DOGE",	price: 0.070492, quantity: 1419, agent: 'Kevin' },
     {"id":22, name: "Nano",	    asset: "DOGE",	price: 0.132702, quantity: 753, agent: 'Kevin' },
     {"id":24, name: "Vladimir",	asset: "DOGE",	price: 0.170859, quantity: 585, agent: 'Kevin' },
-    {"id":23, name: "Jake",	    asset: "DOGE",	price: 0.197966, quantity: 761, agent: 'Kevin' },
+    {"id":23, name: "Jake",	    asset: "DOGE",	price: 0.297966, quantity: 761, agent: 'Kevin' },
     {"id":25, name: "Paulette",	asset: "DOGE",	price: 0.177449, quantity: 281, agent: 'Arturo' },
     
   ]
