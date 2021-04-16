@@ -29,18 +29,21 @@ const Home = () => {
   let clients = [
     {"id":11, name: "Mario",	  asset: "DOGE",	price: 0.05267,	 quantity: 1893, agent: 'Arturo' },
     {"id":12, name: "Kevin",	  asset: "DOGE",	price: 0.050588, quantity: 1980, agent: 'Arturo' },
+    {"id":32, name: "Kevin",	  asset: "DOGE",	price: 0.174706, quantity: 572, agent: 'Kevin' },
     {"id":13, name: "Tapia",	  asset: "DOGE",	price: 0.04423,	 quantity: 1131, agent: 'Arturo' },
     {"id":14, name: "Arturo",	  asset: "DOGE",	price: 0.051320, quantity: 1948, agent: 'Arturo' },
     {"id":15, name: "Arturo",	  asset: "DOGE",	price: 0.052224, quantity: 1901, agent: 'Arturo' },
+    {"id":35, name: "Arturo",	  asset: "DOGE",	price: 0.173209, quantity: 1153, agent: 'Arturo' },
     {"id":16, name: "Andres",	  asset: "DOGE",	price: 0.072000, quantity: 2083, agent: 'Arturo' },
     {"id":17, name: "Matias",	  asset: "DOGE",	price: 0.071615, quantity: 1673, agent: 'Arturo' },
     {"id":18, name: "Matias",	  asset: "DOGE",	price: 0.058580, quantity: 2219, agent: 'Arturo' },
     {"id":19, name: "Cachi",	  asset: "DOGE",	price: 0.047809, quantity: 1045, agent: 'Kevin' },
     {"id":20, name: "Cachi",	  asset: "DOGE",	price: 0.052935, quantity: 944, agent: 'Kevin' },
     {"id":21, name: "Pelos",	  asset: "DOGE",	price: 0.070492, quantity: 1419, agent: 'Kevin' },
+    {"id":31, name: "Pelos",	  asset: "DOGE",	price: 0.173736, quantity: 575, agent: 'Kevin' },
     {"id":22, name: "Nano",	    asset: "DOGE",	price: 0.132702, quantity: 753, agent: 'Kevin' },
     {"id":24, name: "Vladimir",	asset: "DOGE",	price: 0.170859, quantity: 585, agent: 'Kevin' },
-    {"id":23, name: "Jake",	    asset: "DOGE",	price: 0.297966, quantity: 761, agent: 'Kevin' },
+    {"id":23, name: "Jake",	    asset: "DOGE",	price: 0.197966, quantity: 761, agent: 'Kevin' },
     {"id":25, name: "Paulette",	asset: "DOGE",	price: 0.177449, quantity: 281, agent: 'Arturo' },
     
   ]
