@@ -35,7 +35,7 @@ const Home = () => {
     {"id":15, name: "Arturo",	  asset: "DOGE",	price: 0.052224, quantity: 1901, agent: 'Arturo' },
     {"id":35, name: "Arturo",	  asset: "DOGE",	price: 0.173209, quantity: 1153, agent: 'Arturo' },
     {"id":16, name: "Andres",	  asset: "DOGE",	price: 0.072000, quantity: 2083, agent: 'Arturo' },
-    {"id":17, name: "Matias",	  asset: "DOGE",	price: 0.071615, quantity: 1673, agent: 'Arturo' },
+    {"id":17, name: "Matias",	  asset: "DOGE",	price: 0.071615, quantity: 500, agent: 'Arturo' },
     {"id":18, name: "Matias",	  asset: "DOGE",	price: 0.058580, quantity: 2219, agent: 'Arturo' },
     {"id":19, name: "Cachi",	  asset: "DOGE",	price: 0.047809, quantity: 1045, agent: 'Kevin' },
     {"id":20, name: "Cachi",	  asset: "DOGE",	price: 0.052935, quantity: 944, agent: 'Kevin' },
