@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/doge-tracker/static/css/main.f6a26a48.chunk.css",
-    "main.js": "/doge-tracker/static/js/main.264ea363.chunk.js",
-    "main.js.map": "/doge-tracker/static/js/main.264ea363.chunk.js.map",
+    "main.js": "/doge-tracker/static/js/main.f55077c3.chunk.js",
+    "main.js.map": "/doge-tracker/static/js/main.f55077c3.chunk.js.map",
     "runtime-main.js": "/doge-tracker/static/js/runtime-main.93e62154.js",
     "runtime-main.js.map": "/doge-tracker/static/js/runtime-main.93e62154.js.map",
     "static/css/2.150d169a.chunk.css": "/doge-tracker/static/css/2.150d169a.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.48563e87.chunk.js",
     "static/css/main.f6a26a48.chunk.css",
-    "static/js/main.264ea363.chunk.js"
+    "static/js/main.f55077c3.chunk.js"
   ]
 }
